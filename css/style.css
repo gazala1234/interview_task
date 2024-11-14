@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f3f3f3;
+  }
+  
+  .bundle-container {
+    width: 400px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #006400;
+    margin-bottom: 20px;
+  }
+
+  .dkk-text{
+    padding-top: 15px;
+    font-size: 10px;
+  }
+  
+  .bundle-option {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .bundle-option input[type="radio"] {
+    display: none;
+  }
+  
+  .bundle-option label {
+    display: block;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .bundle-option label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .discount-text {
+    font-weight: bold;
+  }
+  
+  .popular {
+    color: #ff4500;
+    font-size: 12px;
+    float: right;
+  }
+  
+  .bundle-options {
+    padding: 10px;
+    display: none;
+    margin-top: 10px;
+  }
+  
+  .option-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .option-header span {
+    flex: 1;
+    padding-left: 10px;
+  }
+  
+  .option-group {
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+    margin-bottom: 5px;
+  }
+
+  .most-popular {
+    display: block;
+    float: right;
+    font-size: 0.9em;
+    color: #006400;
+    font-weight: bold;
+    margin-top: 5px;
+  }  
+  
+  select {
+    width: 48%;
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  .summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .summary p {
+    font-size: 15px;
+    margin: 0;
+    padding: 5px;
+  }
+
+  .summary .shipping {
+    color: #006400;
+  }
+  
+  .add-to-cart {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #006400;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+  }
+  
